@@ -1,7 +1,5 @@
 . "$PSScriptRoot\config.ps1"
 
-Import-Module SqlServer
-
 $query = @"
 SELECT name
 FROM sys.databases
